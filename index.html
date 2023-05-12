@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estações</title>
+</head>
+
+<body>
+    <main>
+        <h1>O que JavaScript é capaz de fazer?</h1>
+        <h2>JavaScript pode mudar atributos HTML</h2>
+        <p>Nesse caso o JavaScript vai mudar o valor de <code>src</code> (source) de uma imagem.</p>
+
+    <div id="center-buttons">
+        <button onclick="document.getElementById('imagempadrao').src='media/primavera.jpg'"
+            id="primavera">Primavera</button>
+        <button onclick="document.getElementById('imagempadrao').src='media/verao.png'" id="verao">Verão</button>
+        <button onclick="document.getElementById('imagempadrao').src='media/estacoes.png'">Padrão</button>
+        <button onclick="document.getElementById('imagempadrao').src='media/outono.png'" id="outono">Outono</button>
+        <button onclick="document.getElementById('imagempadrao').src='media/inverno.png'" id="inverno">Inverno</button>
+    </div>
+    <br>
+    <img src="media/estacoes.png" alt="estacoes" id="imagempadrao">
+    
+    </main>
+    <footer><p>Desenvolvido por @guttta <p id="info"><abrr title="As imagens NÃO são responsivas, ainda.">INFO</abrr></p></p></footer>
+</body>
+
+</html>

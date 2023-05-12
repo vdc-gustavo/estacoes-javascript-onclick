@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+button {
+    margin: 5px 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    display: block;
+    text-decoration: underline;
+    cursor: pointer;
+    border: .5px black solid;
+    width: 85px;
+    height: 35px;
+    margin: 5px;
+}
+
+button#verao {
+    background-color: rgb(209, 161, 2);
+    color: white;
+}
+
+button#inverno {
+    background-color: rgb(140, 175, 197);
+    color: white ;
+}
+
+button#outono {
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+button#primavera {
+    background-color: rgb(206, 130, 182);
+    color: white;
+}
+
+img {
+    margin: 0px auto;
+    display: block;
+}
+
+code {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background-color: #ececec;
+    padding: 3.5px 5px;
+    border-radius: 2px;
+}
+
+div#center-buttons {
+    margin: 0px auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p#info{
+    font-weight: bold;
+    color: rgb(0, 153, 255);
+}
+
+footer{
+    margin: 10px auto 0px;
+    font-weight: bold;
+    padding: 10px;
+
+}
